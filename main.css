@@ -1,6 +1,9 @@
 #header{
 	color: #00FFD8;
 	text-align: center;
+	
+	padding-left: 14px;
+	padding-right: 14px;
 }
 
 #header a{
@@ -28,6 +31,9 @@ footer {
 
 	font-size: 70%;
 	text-align: center;
+	
+	bottom: 0;
+	position: absolute;
 }
 
 footer a{
@@ -37,20 +43,39 @@ footer a{
 body{
 	margin: auto;
 	max-width: 650px;
+	width: 100vw;
 	color: #ffffff;
 	background-color: #101010;
 }
 
+#content{
+	background-color: #101010;
+	height: 100vh;
+	max-width: 650px;
+	margin: auto;
+	
+	padding-top: 1px;
+}
+
 #links{
 	font-family: monospace;
+	
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 #links a{
 	color: grey;
 }
 
+#links a:hover{
+	background-color: white;
+	color: black;
+}
+
 pre{
 	white-space: pre-wrap;
+	font-family: monospace;
 }
 
 pre a{
