@@ -85,3 +85,7 @@ pre a{
 hr{
 	margin: -14px;
 }
+
+img{
+	max-width: 650px;
+}
