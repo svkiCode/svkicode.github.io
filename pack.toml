@@ -1,0 +1,16 @@
+name = "Gearful (thefted)"
+author = "Sunroses (& molly nyehehe)"
+version = "1.17.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d959eca08b6b687e755a6da963a2b93896539b6eab1412f2a77ac1ba6052d8c3"
+
+[versions]
+minecraft = "1.19.2"
+quilt = "0.17.10"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
